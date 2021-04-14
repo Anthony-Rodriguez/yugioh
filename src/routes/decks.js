@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Deck() {
+function Decks() {
   return (
     <div className='decks'>
       <h1>Decks</h1>
@@ -8,4 +8,4 @@ function Deck() {
   )
 }
 
-export default Deck
+export default Decks

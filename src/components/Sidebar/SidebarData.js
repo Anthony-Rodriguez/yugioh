@@ -1,5 +1,7 @@
 import React from 'react'
 import * as AiIcons from 'react-icons/ai'
+import * as GiIcons from 'react-icons/gi'
+import * as VscIcons from 'react-icons/vsc'
 
 export const SidebarData = [
   {
@@ -10,20 +12,20 @@ export const SidebarData = [
   },
   {
     title: 'Account',
-    path: '/',
-    icon: <AiIcons.AiFillHome />,
+    path: '/account',
+    icon: <VscIcons.VscAccount />,
     className: 'nav-text'
   },
   {
     title: 'Cards',
-    path: '/',
-    icon: <AiIcons.AiFillHome />,
+    path: '/cards',
+    icon: <GiIcons.GiCardPick />,
     className: 'nav-text'
   },
   {
-    title: 'Deck',
+    title: 'Decks',
     path: '/decks',
-    icon: <AiIcons.AiFillHome />,
+    icon: <GiIcons.GiCardDraw />,
     className: 'nav-text'
   },
 ]
