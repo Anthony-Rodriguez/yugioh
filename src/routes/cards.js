@@ -1,14 +1,11 @@
-import React, { setState } from 'react'
+import React from 'react'
 
 
-function Cards() {
-const [cards, setCards] = setState()
-
+export default function Cards(cards) {
   return (
     <div className='cards'>
       <h1>Cards</h1>
+      <div className={cards.type}></div>
     </div>
   )
 }
-
-export default Cards
