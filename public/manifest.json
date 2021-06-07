@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Yu-gi-oh! Cards",
+  "name": "Find Yu-gi-oh! card data quickly!",
   "icons": [
     {
       "src": "favicon.ico",
